@@ -8,7 +8,7 @@ const Home = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  };
+  }
 
   return (
     <div className="min-h-screen bg-cover" style={{ backgroundImage: "url('/images/Free-Realistic-Space-Background.webp')" }}>
