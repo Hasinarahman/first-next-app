@@ -12,8 +12,17 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      boxShadow: {
+        'white': '0 2px 10px rgba(255, 255, 255, 0.5)', // Add custom white shadow
+      },
+
+      textShadow: {
+        'white': '0 0 5px rgba(255, 255, 255, 0.7)', // Custom white text shadow
+      },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };
 export default config;
